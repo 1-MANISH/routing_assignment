@@ -11,29 +11,29 @@ import Signin from './components/SignIn/Signin';
 
 function App() {
 
-    // const [userEmail,setUserEmail] = useState('');
-    // const [userPassword,setUserPassword] = useState('');
-    // const [userLoggedIn,setUserLoggedIn] = useState(false)
+    const [userEmail,setUserEmail] = useState('');
+    const [userPassword,setUserPassword] = useState('');
+    const [userLoggedIn,setUserLoggedIn] = useState(false)
 
-    // function setUser(uemail,upass){
-    //   setUserEmail(uemail)
-    //   setUserPassword(upass)
-    // }
+    function setUser(uemail,upass){
+      setUserEmail(uemail)
+      setUserPassword(upass)
+    }
 
-    // function setSession(value){
-    //   setUserLoggedIn(value)
-    // }
+    function setSession(value){
+      setUserLoggedIn(value)
+    }
 
 
 
     return (
       <div className="App">
-          {/* <Routes>
+          <Routes>
             <Route path="/" element={<HomePage/>} />
             <Route path='/login' element={<Login userEmail={userEmail} userPassword={userPassword} setSession={setSession}  />} />
             <Route path='/signin' element={<Signin setFunction={setUser}/>}/>
             <Route path='/dashboard' element={<DashBoard userEmail={userEmail} setFunction={setUser}/>}/>
-           </Routes> */}
+          </Routes>
 
           <CreateNote/>
           <ListNotes/>
