@@ -1,0 +1,33 @@
+.sign-container{
+    height: 100vh;
+    background-color: lightseagreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign-form{
+
+    width: 60%;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.sign-form input{
+    width: 60%;
+    padding: 1rem 1rem;
+    border: none;
+    outline: none;
+}
+
+.sign-form button{
+    padding: 1rem 2rem;
+    border: none;
+    outline: none;
+}
+.sign-form button:hover{
+    background-color: black;
+    color: honeydew;
+}

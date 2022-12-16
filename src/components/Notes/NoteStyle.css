@@ -1,0 +1,119 @@
+.create-note-container {
+  box-sizing: border-box;
+  padding: 2vmax;
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(223, 179, 179);
+  font-family: monospace;
+  border-bottom: 1px solid lightblue;
+}
+.form-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.form-container input {
+  width: 40%;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  font-family: monospace;
+  border: none;
+  outline: none;
+}
+.form-container input[type="submit"] {
+  border: none;
+  width: 30%;
+  background-color: crimson;
+  cursor: pointer;
+}
+.note-main-container {
+  box-sizing: border-box;
+  min-height: 80vh;
+  padding: 2vmax;
+  width: 100%;
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.note-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+.note {
+  min-width: 250px;
+  min-height: 250px;
+  padding: 1vmax;
+  border-radius: 1rem;
+  background-color: rgb(231, 202, 161);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+.note h2 {
+  font-size: 1.6rem;
+}
+.note h4 {
+  font-size: 1.4rem;
+}
+.note p {
+  font-size: 1.2rem;
+}
+.note .btn {
+  border-top: 1px solid black;
+  padding: 1vmax;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.note .btn button {
+  box-sizing: border-box;
+  padding: 0.5rem 0.2rem;
+  width: 60px;
+}
+.edit {
+  padding: 2vmax;
+  min-width: 250px;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: lightseagreen;
+  display: none;
+}
+.edit form {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.edit input {
+  width: 80%;
+  padding: 1rem 0.5rem;
+  border: none;
+  outline: none;
+}
+.edit button {
+  width: 80%;
+  padding: 1rem 0.5rem;
+}
+.resp {
+  display: block;
+}
